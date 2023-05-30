@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="flex justify-between mx-5 md:mx-0 md:justify-around h-20 items-center">
+        <img src="../images/logo.png" class="w-32 h-10">
+        <nav class="hidden md:block">
+            <a href="" class="mx-2 text-xl">Home</a>
+            <a href="" class="mx-2 text-xl">Shop</a>
+            <a href="" class="mx-2 text-xl">Catalogue</a>
+            <a href="" class="mx-2 text-xl">New Arrivals</a>
+            <a href="" class="mx-2 text-xl">Contact</a>
+        </nav>
+        <div id="menu" class="flex justify-center items-center border-2 border-gray-800 px-4 md:hidden"><span>&#9776;</span>
+        </div>
+    
+        <div id="icons" class="hidden md:block">
+            <i class="mx-3 bi bi-search "></i>
+            <i class="mx-3 bi bi-heart "></i>
+            <i class="mx-3 bi bi-bag"></i>
+        </div>
+    </header>
+    
+    <main class="h-screen flex md:bg-slate-150 bg-gradient-to-r from-stone-900 to-stone-700 md:bg-none overflow-x-hidden">
+        <img src="../images/landing.png" alt="Landing" class="h-screen md:w-1/2 w-screen">
+    
+    
+        <section class="flex flex-col h-screen w-screen md:w-1/2 justify-center items-center absolute md:relative">
+            <p class="text-white md:text-gray-900 tracking wide">#NEW SUMMER COLLECTIONS 2021</p>
+            <h1 class="text-white text-center md:text-gray-900 text-6xl font-bold tracking-wider my-5">ARRIVAL SALES</h1>
+            <button class="bg-gray-800 p-2 text-white hover:bg-gray-950">SHOP NOW</button>
+        </section>
+    </main>
+    
+    <section>
+        <div class="border-l-4 ml-6 md:ml-20 mt-10 md:mt-20 border-red-600">
+            <h1 class="ml-6 text-3xl font-bold mb-20">DISCOVER <br>
+                THE COLLECTIONS</h1>
+        </div>
+    
+        <section class="grid md:grid-cols-[65%, 35%] 2xl:grid-cols-[100] md:grid-rows-[auto_auto] gap-5 mt-10">
+            <!-- ...................First Figure................. -->
+    
+            <figure
+                class="md:col-start-1 md:col-span-1 md:row-start-1 md:row-span-2 bg-slate-50 flex justify-center items-center">
+                <figcaption class="absolute p-5 bg-white hover:bg-black hover:text-white delay-300 ease-in">
+                    <p>Women <small class="text-gray-400">25 Items</small></p>
+                </figcaption>
+                <img src="../images/woman.png" alt="woman" class="h-screen" />
+            </figure>
+    
+            <!-- ...................Second Figure................. -->
+    
+            <figure
+                class="md:col-start-2 md:col-span-1 md:row-start-1 md:row-span-1 bg-slate-50 flex justify-center items-center">
+                <figcaption class="absolute p-5 bg-white hover:bg-black hover:text-white delay-300 ease-in">
+                    <p>Man <small class="text-gray-400">25 Items</small></p>
+                </figcaption>
+                <img src="../images/man.png" alt="woman" class="h-[50vh]" />
+            </figure>
+    
+            <!-- ...................Third Figure................. -->
+    
+            <figure
+                class="md:col-start-2 md:col-span-1 md:row-start-2 md:row-span-1 bg-slate-50 flex justify-center items-center">
+                <figcaption class="absolute p-5 bg-white hover:bg-black hover:text-white delay-300 ease-in">
+                    <p>Shoe <small class="text-gray-400">25 Items</small></p>
+                </figcaption>
+                <img src="../images/shoes.png" alt="woman" class="h-[50vh]" />
+            </figure>
+        </section>
+    </section>
+    
+    
+    <!-- ....................Popular Products.................. -->
+    
+    <section id="Popular_Products" class="w-screen py-10 px-20 md:px-32 min-h-screen">
+        <div class="border-l-4 border-red-600">
+            <h1 class="ml-5 font-bold text-2xl text-gray-900">POPULAR PRODUCTS</h1>
+        </div>
+    
+        <section class="grid md:grid-cols-3 2xl:grid-cols-[100] gap-5 mt-10">
+            <!-- ...................First Figure................. -->
+    
+            <figure>
+                <div class="bg-slate-50 flex justify-center items-center h-96">
+                    <img src="../images/gray shoe.png" alt="woman" class="h-60" />
+                </div>
+                <figcaption class="text-center">
+                    <p class="text-gray-500">Brown Shoe</p>
+                    <b>$20.00</b>
+                </figcaption>
+            </figure>
+    
+            <!-- ...................Second Figure................. -->
+    
+            <figure>
+                <div class="bg-slate-50 flex justify-center items-center h-96">
+                    <img src="../images/blue shoe.png" alt="blue shoe" class="h-60" />
+                </div>
+                <figcaption class="text-center">
+                    <p class="text-gray-500">Blue Shoe</p>
+                    <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+                </figcaption>
+            </figure>
+    
+            <!-- .....................Third Figure.................. -->
+    
+            <figure>
+                <div class="bg-slate-50 flex justify-center items-center h-96">
+                    <img src="../images/jacket.png" alt="blue shoe" class="h-60" />
+                </div>
+                <figcaption class="text-center">
+                    <p class="text-gray-500">Denim Jacket</p>
+                    <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+                </figcaption>
+            </figure>
+    
+            <!-- ..................Fourth Figure.................. -->
+    
+            <figure>
+                <div class="bg-slate-50 flex justify-center items-center h-96">
+                    <img src="../images/bag.png" alt="blue shoe" class="h-60" />
+                </div>
+                <figcaption class="text-center">
+                    <p class="text-gray-500">Leather Fancy Bag</p>
+                    <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+                    <div class="mt-4">
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                    </div>
+                </figcaption>
+            </figure>
+    
+            <!-- .................Fifth Figure................... -->
+    
+            <figure>
+                <div class="bg-slate-50 flex justify-center items-center h-96">
+                    <img src="../images/smooth cloth.png" alt="blue shoe" class="h-72" />
+                </div>
+                <figcaption class="text-center">
+                    <p class="text-gray-500">Smooth Cloth</p>
+                    <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+                </figcaption>
+            </figure>
+    
+            <!-- ......................Sixth Figure................. -->
+    
+            <figure>
+                <div class="bg-slate-50 flex justify-center items-center h-96">
+                    <img src="../images/yellow jacket.png" alt="blue shoe" class="h-96" />
+                </div>
+                <figcaption class="text-center">
+                    <p class="text-gray-500">Yellow Jacket</p>
+                    <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+                </figcaption>
+            </figure>
+        </section>
+    </section>
+    
+    <!-- Most Rated -->
+    
+    <section id="Popular_Products" class="w-screen py-10 px-20 md:px-32 min-h-screen">
+        <div class="place-self-auto flex flex-col items-center">
+            <h1 class="ml-5 font-bold text-2xl text-gray-900 text-center">MOST RATED</h1>
+            <hr class="border-4 border-red-600 w-16">
+        </div>
+    
+        <section class="grid md:grid-cols-3 2xl:grid-cols-[100] gap-5 mt-10">
+            <!-- ...................First Figure................. -->
+    
+            <figure>
+                <div class="bg-slate-50 flex justify-center items-center h-96">
+                    <img src="../images/smooth cloth.png" alt="woman" class="h-60" />
+                </div>
+                <figcaption class="text-center">
+                    <p class="text-gray-500">Smooth Cloth</p>
+                    <b>$20.00</b>
+                    <div class="mt-4">
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                    </div>
+                </figcaption>
+            </figure>
+    
+            <!-- ...................Second Figure................. -->
+    
+            <figure>
+                <div class="bg-slate-50 flex justify-center items-center h-96">
+                    <img src="../images/blue shoe.png" alt="blue shoe" class="h-60" />
+                </div>
+                <figcaption class="text-center">
+                    <p class="text-gray-500">Blue Shoe High Heel</p>
+                    <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+                    <div class="mt-4">
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                    </div>
+                </figcaption>
+            </figure>
+    
+            <!-- .....................Third Figure.................. -->
+    
+            <figure>
+                <div class="bg-slate-50 flex justify-center items-center h-96">
+                    <img src="../images/jacket.png" alt="blue shoe" class="h-60" />
+                </div>
+                <figcaption class="text-center">
+                    <p class="text-gray-500">Denim Jacket</p>
+                    <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+                    <div class="mt-4">
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                        <span><i class="bi bi-star-fill" style="color: goldenrod;"></i></span>
+                    </div>
+                </figcaption>
+            </figure>
+        </section>
+    </section>
+    
+    <section id="new-shoes"
+        class="flex justify-center h-screen  md:bg-slate-50 w-screen bg-gradient-to-r from-stone-800 to-stone-700 md:bg-none overflow-x-hidden">
+        <!-- ..................New Shoes............................. -->
+        <div class="md:w-4/5 md:h-[fit-content] flex md:justify-between justify-center items-center">
+            <img src="../images/shoes.png" alt="landing" class="md:h-3/5 md:w-4/12 h-full w-fit" />
+            <section
+                class="flex flex-col h-screen w-screen md:w-1/2 justify-center items-end text-center absolute md:relative">
+                <div class="content m-auto">
+                    <p class="text-white md:text-gray-900 text-lg tracking-wide">
+                        #NEW SUMMER COLLECTIONS 2023
+                    </p>
+                    <h1 class="text-white text-center md:text-gray-900 md:text-6xl text-5xl font-bold tracking-wider my-5">
+                        NEW SHOES</h1>
+                    <button class="rounded-lg px-4 bg-gray-800 p-2 text-white hover:bg-gray-950">SHOP NOW</button>
+                </div>
+            </section>
+        </div>
+    </section>
+    <footer class="flex justify-center mt-[100px]">
+        <div class="footer-content w-4/5 md:flex md:justify-between">
+            <div class="promo flex flex-col gap-4">
+                <b class="font-mono text-lg">PROMO</b>
+                <img src="../images/shirts.jpg" alt="shirts" class="rounded-lg h-[200px] md:w-11/12">
+                <p class="text-red-600">Finding Your Perfect Shirts This <br>Summer</p>
+                <small class="text-slate-800">Promo from April 15-25, 2023</small>
+            </div>
+            <div class="quick-links flex flex-col gap-5">
+                <b class="font-mono text-lg mt-4">QUICK LINKS</b>
+                <div class="md:grid md:grid-cols-3 gap-4 mb-4">
+                    <ul class="flex flex-col gap-4 text-slate-600">
+                        <li class="mb-2 hover:text-red-600"><a href="#">Sell online</a></li>
+                        <li class="mb-2 hover:text-red-600"><a href="#">Features</a></li>
+                        <li class="mb-2 hover:text-red-600"><a href="#">Shopping</a></li>
+                        <li class="mb-2 hover:text-red-600"><a href="#">Store builder</a></li>
+                    </ul>
+                    <ul class="flex flex-col gap-4 text-slate-600">
+                        <li class="mb-2 hover:text-red-600"><a href="#">Commerce</a></li>
+                        <li class="mb-2 hover:text-red-600"><a href="#">Dropshipping</a></li>
+                        <li class="mb-3 hover:text-red-600"><a href="#">Website <br> development</a></li>
+                    </ul>
+                    <ul class="flex flex-col gap-4 text-slate-600">
+                        <li class="mb-2 hover:text-red-600"><a href="#">Point of sale</a></li>
+                        <li class="mb-2 hover:text-red-600"><a href="#">Hardware</a></li>
+                        <li class="mb-2 hover:text-red-600"><a href="#">Software</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-info flex flex-col gap-5">
+                <b class="mb-2 font-mono text-lg">CONTACT INFO</b>
+                <ul class="flex flex-col gap-5">
+                    <li class="my-2">
+                        <span class="pr-2"><i class="bi bi-geo-alt-fill text-red-600"></i></span>
+                        <span>5 Prince Adeyemi Street. Lagos, Nigeria.</span>
+                    </li>
+                    <li class="my-3">
+                        <span class="pr-2"><i class="bi bi-telephone-fill text-red-600"></i></span>
+                        <span>+234 8164277071</span>
+                    </li>
+                    <li class="my-3">
+                        <span class="pr-2"><i class="bi bi-envelope-fill text-red-600"></i></span>
+                        <span>uchninoalvares@gmail.com</span>
+                    </li>
+                </ul>
+                <div class="sunscribe mt-5">
+                    <b class="mb-3 font-mono text-lg">SUBSCRIBE</b>
+                    <div class="border rounded p-1 mt-5 hover:border-red-600">
+                        <input class="border-none outline-none mx-1" type="email" name="email" id="email"
+                            placeholder="Email">
+                        <button class="rounded bg-red-600 px-4 py-2 text-white">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+    <div class="copyright h-[20vh] flex justify-center items-end text-slate-600">
+        <p class="text-center mb-3 w-11/12">Copyright ©2023 All rights reserved | Uchnino Jakes</p>
+    </div>
+</body>
+</html>
